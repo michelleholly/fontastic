@@ -1,0 +1,98 @@
+.background {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.btn1 {
+    background-color: #0099ff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 3em 3em;
+    border-radius: 5px;
+    display: inherit;
+    margin: 3em;
+}
+
+.btn2 {
+    background-color: #ffcc66;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 3em 3em;
+    border-radius: 5px;
+    display: inherit;
+    margin: 3em;
+}
+
+.btn3 {
+    background-color: #b266ff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 3em 3em;
+    border-radius: 5px;
+    display: inherit;
+    margin: 3em;
+}
+
+.btn1:hover,
+.btn1:active,
+.btn1:focus {
+    background-color: #003d66;
+}
+
+.btn2:hover,
+.btn2:active,
+.btn2:focus {
+    background-color: #ff9966;
+}
+
+.btn3:hover,
+.btn3:active,
+.btn3:focus {
+    background-color: #7200e6;
+}
+
+
+.btn i{
+    vertical-align: middle;
+    padding-right: 1em;
+}
+
+.icon-raincloud {
+    color: #fff;
+    font-size: 10em;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+    
+}
+
+.icon-sunshine {
+    color: #fff; 
+    font-size: 10em;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+}
+
+.icon-umbrella {
+    color: #fff;   
+    font-size: 10em;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+}
+    
+
+.border, ul {
+  border: 1px solid #ccc;
+}
+
+.border p, ul p {
+  color: red;
+}

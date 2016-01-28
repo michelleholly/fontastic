@@ -1,0 +1,25 @@
+html {
+    font-family: $helvetica;
+}
+
+.border {
+    border: 1px solid #000;
+        p{
+            color: black;
+        }
+}
+
+ul{
+  @extend .border;
+}
+
+a {
+    text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+}
+
+.primary-btn{
+  @include button(#2980b9);
+}
